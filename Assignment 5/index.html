@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+
+    <div id="wrapper">
+        <div id="header">
+            <a href="" class="logo">
+                <img src="https://cdn.dribbble.com/users/31864/screenshots/3666062/attachments/819877/2.jpg?compress=1&resize=400x300&vertical=center"  alt="">
+            </a>
+            <div id="menu">
+                <div class="item">
+                    <a href="">Home</a>
+                </div>
+                <div class="item">
+                    <a href="product.html">Products</a>
+                </div>
+                <div class="item">
+                    <a href="review.html">Reviews</a> 
+                </div>
+                <div class="item">
+                    <a href="account.html">Account</a>
+                </div>
+            </div>
+            <div id="actions">
+                <div class="item">
+                    <img src="https://cdn.dribbble.com/users/31864/screenshots/3666062/attachments/819877/2.jpg?compress=1&resize=400x300&vertical=center" alt="">
+                </div>
+                <div class="item">
+                    <img src="not done yet" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="banner">
+            <div class="box-left">
+                <h2>
+                    <span>News</span>
+                    <br>
+                    <span>Features</span>
+                </h2>
+                <p>Using search bar allow you to search for a wider range of cars</p>
+                <button>Read More</button>
+            </div>
+        </div>
+        <div id="wp-products">
+            <h2>Popular Cars</h2>
+            <ul id="list-products">
+
+                
+                <div class="item">
+                    <img src="data:image/jpeg;base64,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" alt="">
+                    <div class="stars">
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                    </div>
+
+                    <div class="name">
+                        <a href="audi.html">Audi A7</a>
+                    </div>
+
+                    <div class="desc">Sports Cars</div>
+                    
+                </div>
+
+
+                <div class="item">
+                    <img src="https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/images/media/672263/2017-toyota-camry-in-depth-model-review-car-and-driver-photo-673210-s-original.jpg" width ="100%" length = "100%" alt="">
+
+                    <div class="name">Toyota Camry</div>
+                    <div class="desc">Sedan</div>
+                </div>
+
+
+                <div class="item">
+                    <img src="https://media.ed.edmunds-media.com/toyota/corolla/2018/oem/2018_toyota_corolla_sedan_le-eco-wpremium-package_fq_oem_1_1600.jpg" width="90%" length ="100%" alt="">
+                    <div class="stars">
+                        <span>
+                            <img src="review star, not done yet" alt="">
+                        </span>
+                    </div>
+
+                    <div class="name">Toyota Corolla</div>
+                    <div class="desc">Sedan</div>
+                </div>
+                <div class="item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/2020_Kia_Sorento_4_HEV_AWD_Automatic_1.6_Front.jpg" width ="100%" length = "100%" alt="">
+                    <div class="stars">
+                        <span>
+                            <img src="review star, not done yet" alt="">
+                        </span>
+                    </div>
+
+                    <div class="name">Kia Sorento</div>
+                    <div class="desc">SUV</div>
+                </div>
+            </ul>
+            <div class="list-page">
+                <div class="item">
+                    <a href="">1</a>
+                </div>
+                <div class="item">
+                    <a href="">2</a>
+                </div>
+                <div class="item">
+                    <a href="">3</a>
+                </div>
+                <div class="item">
+                    <a href="">4</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="comment">
+            <h2>Newest reviews</h2>
+            <div id="comment-body">
+                <div class="prev">
+                    <a href="#">
+                        <img src="later use" alt="">
+                    </a>
+                </div>
+                <ul id="list-comment">
+                    <li class="item">
+                        <div class="avatar">
+                            <img src="avatar" alt="">
+
+                        </div>
+                        <div class="stars">
+                            <span>
+                                <img src="review star" alt="">
+                            </span>
+                        </div>
+                        <div class="name">Tan Ton</div>
+                        <div class="name">Toyota Camry 2017</div>
+
+                        <div class="text">
+                            <p>As an owner of the Toyota Camry 2017, I would said that the car run amazingly smooth. I have done over 50k miles without having any trouble regarding engine. The cars it selfs are very comfortable. Recommended for a long-term cars</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="avatar">
+                            <img src="assets/avatar_1.png" alt="">
+
+                        </div>
+                        <div class="stars">
+                            <span>
+                                <img src="assets/star.png" alt="">
+                            </span>
+                        </div>
+                        <div class="name">Can Yang</div>
+                        <div class="name">Toyota Corolla 2017</div>
+                        <div class="text">
+                            <p>Toyota Corolla 2017 is a basic car with every things that you need for a new and beginner driver. The economic is roughly around 30 highway and 27 city. Even though the car is small, it is very comfortable when you sit in the car. Recommended for everyone.</p>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="avatar">
+                            <img src="">
+
+                        </div>
+                        <div class="stars">
+                            <span>
+                                <img src="assets/star.png" alt="">
+                            </span>
+                        </div>
+                        <div class="name">Selena </div>
+                        <div class="name">Audi A7 2019</div>
+
+                        <div class="text">
+                            <p>The car is fast and smooth. Does have some issue in a long run, maintanance cost is very expensive. I would recommend not to get this, unless you have a lot of extra for repair and keep it update.</p>
+                        </div>
+                    </li>
+                </ul>
+                
+                <div class="next">
+                    <a href="#">
+                        <img src="assets/next.png" alt="">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="list-page">
+                <div class="item">
+                    <a href="">1</a>
+                </div>
+                <div class="item">
+                    <a href="">2</a>
+                </div>
+                <div class="item">
+                    <a href="">3</a>
+                </div>
+                <div class="item">
+                    <a href="">4</a>
+                </div>
+            </div>
+
+        </div>
+        
+        <div id="footer">
+            <div class="box">
+                <div class="logo">
+                    <img src="assets/logo.png" alt="">
+                </div>
+                <p></p>
+            </div>
+            <form id="search-form" div class = "box">
+                <label for="searchInput">Advanced Searching Bar: </label>
+                <input type="text" id="searchInput" required>
+                <button id="searchButton">Search</button>
+            </form>
+        
+            <div id="popup" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 20px; background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <h2>Search Results</h2>
+                <p id="popup-content"></p>
+                <button id="closeButton">Close</button>
+            </div>
+            <div class="box">
+                <h3>Connect with us</h3>
+                <ul class="quick-menu">
+                    <div class="item">
+                        <a href="">Facebook</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Instagram</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Email</a>
+                    </div>
+                    <div class="item">
+                        <a href="">LinkedIn</a>
+                    </div>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Contact us</h3>
+                <form action="">
+                    <input type="text" placeholder="Contact Email">
+                    <button>Sent</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
